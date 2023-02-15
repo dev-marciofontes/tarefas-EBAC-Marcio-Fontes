@@ -1,0 +1,29 @@
+INICIO
+	1 - Despertador toca
+	2 - Abrir os olhos
+	3 - Desligar o despertador
+	4 - Sentar na beirada da cama para não levantar rápido
+	5 - Levantar
+	6 - Ir até o banheiro
+		1 - Fazer necessidades
+		2 - Lavar as mãos
+		3 - Lavar o rosto
+		4 - Escovar os dentes
+		5 - Sair do banheiro 
+	7 - Ir até a cozinha
+		1 - Pegar um copo e Beber água
+		2 - Lavar o copo e colocar para secar
+		3 - Sair da cozinha
+	8 - Ir até o quarto
+		1 - Trocar de roupa
+		2 - Alongar o corpo
+		3 - Meditar por 10 minutos
+		4 - Pegar um livro
+		5 - Ler o livro por 15 minutos
+		6 - Guardar o livro
+		7 - Sair do quarto
+	9 - Ir até a cozinha
+		1 - Pegar os itens para fazer o café da manhã
+		2 - Fazer o café da manhã
+		3 - Tomar o café da manhã
+FIM	
