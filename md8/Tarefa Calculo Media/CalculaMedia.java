@@ -22,7 +22,9 @@ public class CalculaMedia {
 		double nota4 = entrada.nextDouble();
 
 		double media = (nota1 + nota2 + nota3 + nota4) / 4;
-		System.out.printf("\n A média das suas notas é: %2.2f " , media);
+		System.out.printf("\n A média das suas notas é: %2.2f ", media);
+
+		entrada.close();
 	}
 
 }
