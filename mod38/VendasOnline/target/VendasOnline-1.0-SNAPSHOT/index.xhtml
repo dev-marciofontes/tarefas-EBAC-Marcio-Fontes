@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:f="http://java.sun.com/jsf/core"
+	  xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Loja Online Ebac</title>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			height: 100vh;
+			background-color: #E6E6FA;
+			font-family: Arial, sans-serif;
+			font-size: 24px;
+			text-align: center;
+		}
+		h1 {
+			margin-top: 50px;
+		}
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			border-radius: 5px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+			text-decoration: none;
+			background-color: #4CAF50;
+			border: none;
+			cursor: pointer;
+			margin: 10px;
+		}
+		.button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</h:head>
+
+<h:body>
+	<h1>Bem-vindos à Loja Online Ebac!</h1>
+	<p>
+		<a href="${pageContext.request.contextPath}/VendasOnline/cliente/list.xhtml" class="button">Cadastrar Cliente</a>
+		<a href="${pageContext.request.contextPath}/VendasOnline/produto/list.xhtml" class="button">Cadastrar Produto</a>
+	</p>
+</h:body>
+</html>
