@@ -1,0 +1,65 @@
+Resposta para o exercício 4:
+
+Complexidade Assintótica de Tempo e Espaço:
+
+------------------------------------
+Pilha:
+
+Método Push:
+- Tempo: O(1)
+- Espaço: O(1)
+Justificativa: O método push que eu criei apenas adiciona um elemento no topo da pilha, o que é uma operação constante, ele não depende do tamanho da pilha.
+
+Método Pop:
+- Tempo: O(1)
+- Espaço: O(1)
+Justificativa: O mesmo vale para o método pop: ele apenas adiciona um elemento no topo da pilha, o que é uma operação constante, independentemente do tamanho da pilha.
+
+------------------------------------
+Fila:
+
+Método enqueue:
+- Tempo: O(1)
+- Espaço: O(1)
+
+Método dequeue:
+- Tempo: O(1)
+- Espaço: O(1)
+
+Método rear:
+- Tempo: O(1)
+- Espaço: O(1)
+
+Método front:
+- Tempo: O(1)
+- Espaço: O(1)
+
+Justificativa: Nos códigos que eu fiz, em todos os casos, as operações enqueue, dequeue, rear e front têm complexidade constante, já que não dependem do número de elementos que estão presentes na fila.
+Além disso, a quantidade de espaço adicional usado por cada operação também é constante, pois apenas um novo nó é criado ou removido durante a execução desses mesmos métodos.
+
+------------------------------------
+Lista encadeada:
+
+Método push:
+- Tempo: o(n)
+- Espaço: o(1)
+
+Método pop:
+- Tempo: o(n)
+- Espaço: o(1)
+
+Método insert:
+- Tempo: o(n)
+- Espaço: o(1)
+
+Método remove:
+- Tempo: o(n)
+- Espaço: o(1)
+
+
+Método elementAt:
+- Tempo: o(n)
+- Espaço: o(1)
+
+Justificativa: Em todos as funções, as operações têm complexidade linear em relação ao tempo, já que dependem do número de elementos presentes na lista encadeada.
+A quantidade de espaço adicional usado por cada operação é constante, pois, em geral, apenas um novo nó é criado ou removido durante a execução desses métodos.
