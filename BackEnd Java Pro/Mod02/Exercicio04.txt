@@ -1,0 +1,26 @@
+Complexidade de tempo entre os dois códigos apresentados na aula:
+
+Código 01: Recursividade Pura
+
+O primeiro código com a abordagem recursiva pura e simples poussui uma alta complexidade de tempo.
+
+A função encontrarElemento faz duas chamadas recursivas para calcular os elementos n - 1 e n - 2, o que gera uma
+recursão em forma de árvore binária da ordem de 2^n.
+
+Portanto a sua complexidade seria: O(2^n), o que tornaria o código extremamente lento para valores maiores de "n".
+
+
+Código 02: Programação Dinâmica
+
+Aqui nós teriamos que analisar a complexidade da inicialização do array "elementosFib", que seria O(MAX_ELEMENTOS).
+
+E também da função encontrarElemento(), que é chamada  no máximo n vezes devido à memoização. Cada chamada subsequente requer apenas um acesso constante ao array elementosFib.
+Portanto a sua complexidade seria O(n).
+
+A complexidade total de tempo é O(MAX_ELEMENTOS) + O(n).
+
+Como o valor de MAX_ELEMENTOS é sempre fixo e independente de n, a complexidade de tempo do código pode ser simplificada como O(n).
+
+Por que a solução feita com programação dinâmica é melhor?
+R: A solução usando programação dinâmica foi melhor porque ela aborda o problema de maneira mais eficiente, eliminando os cálculos repetitivos que ocorrem na abordagem recursiva simples.
+
